@@ -250,12 +250,8 @@ export const menuItems = [
       url: 'youth',
      },
      {
-      title: 'Payer Ministry',
+      title: 'Prayer Ministry',
       url: 'prayer',
-     },
-     {
-      title: 'Family Ministry',
-      url: 'family',
      },
      {
       title: 'Missions Ministry',
@@ -264,10 +260,6 @@ export const menuItems = [
      {
       title: 'Schools Ministry',
       url: 'schools',
-     },
-     {
-      title: 'Counselling Ministry',
-      url: 'counselling',
      },
      {
       title: 'Church Planting',

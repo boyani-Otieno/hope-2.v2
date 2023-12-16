@@ -48,6 +48,7 @@ import Financial from '../routes/Resources/Financial'
 import Children from '../routes/Children'
 import Gala from  '../routes/Min-Gallery/Gala'
 import Donate from '../routes/Support/Donate'
+import Mabadiliko from '../routes/mabadiliko/mabadiliko';
 
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="church" element={<Church />} />
+          <Route path="mabadiliko" element={<Mabadiliko />} />
           <Route path="web-design" element={<WebDesign />} />
           <Route path="kilifi" element={<Kilifi />} />
           <Route path="who-we-are" element={<AboutWho />} />
