@@ -1,11 +1,11 @@
 import React from "react";
-import AboutBackground from "../../assets/images/kilifi14.jpg";
+import AboutBackground from "./images/green2.jpg";
 import AboutBackgroundImage from "../../assets/images/kilifi2.jpg";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const aboutMaba = () => {
   return (
-    <div className="about-section-container">
+    <div id="about-mabadiliko" className="about-section-container">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
@@ -13,9 +13,9 @@ const aboutMaba = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">About Our Project</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Transforming young girl's lives.
         </h1>
         <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et

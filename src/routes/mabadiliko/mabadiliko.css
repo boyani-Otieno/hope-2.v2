@@ -20,15 +20,15 @@
   }
   
   body {
-    background-color: #f6f6f6;
+    background-color: #e1eedd;
   }
   
-  nav {
+  .mabadiliko {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 90px;
-  }
+   }
   .navbar-menu-container {
     display: none;
   }
@@ -37,11 +37,12 @@
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 200;
+    margin: 30px;
   }
   .primary-button {
     padding: 0.9rem 1.75rem;
-    background-color: white;
+    background-color: transparent;
     outline: none;
     border: none;
     border-radius: 5rem;
@@ -50,11 +51,8 @@
     font-weight: 600;
     transition: 0.2s;
   }
-  .navbar-cart-icon {
-    font-size: 1.15rem;
-  }
   .primary-button:hover {
-    background-color: rgb(234, 234, 234);
+    background-color: yellowgreen;
   }
   .navbar-menu-container svg {
     font-size: 1.5rem;
@@ -67,10 +65,11 @@
   }
   .home-bannerImage-container {
     position: absolute;
-    top: -100px;
+    top: 0px;
     right: -170px;
     z-index: -2;
     max-width: 700px;
+    opacity: 5;
   }
   .home-image-section {
     max-width: 600px;
@@ -85,19 +84,19 @@
   }
   .primary-heading {
     font-size: clamp(2rem, 5vw, 4rem);
-    color: #4c4c4c;
+    color: #183a1d;
     /* line-height: 5rem; */
     max-width: 600px;
   }
   .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
     max-width: 500px;
-    color: #6a6a6a;
+    color: black;
     margin: 1.5rem 0rem;
   }
   .secondary-button {
     padding: 1rem 2.5rem;
-    background-color: #fe9e0d;
+    background-color: green;
     outline: none;
     border: none;
     border-radius: 5rem;
@@ -115,7 +114,7 @@
     font-size: 1.5rem;
   }
   .secondary-button:hover {
-    background-color: #e48f0f;
+    background-color: yellowgreen;
   }
   .about-section-container {
     margin-top: 20rem;
@@ -141,7 +140,7 @@
   }
   .primary-subheading {
     font-weight: 700;
-    color: #fe9e0d;
+    color: yellowgreen;
     font-size: 1.15rem;
   }
   .about-buttons-container {
@@ -157,7 +156,7 @@
     font-size: 1.1rem;
     cursor: pointer;
     font-weight: 600;
-    color: #484848;
+    color: yellowgreen;
     transition: 0.2s;
     display: flex;
     align-items: center;
@@ -178,7 +177,7 @@
     margin: 6rem 0rem;
   }
   .contact-form-container {
-    background-color: white;
+    background-color: rgb(31, 83, 34);
     max-width: 700px;
     width: 100%;
     margin-top: 3rem;
@@ -209,7 +208,7 @@
   .footer-icons svg {
     font-size: 1.5rem;
     margin-right: 1.25rem;
-    color: #585858;
+    color: black;
   }
   /* .footer-section-one {
     border: 2px solid blue;
@@ -227,7 +226,7 @@
   .footer-section-columns span {
     margin: 0.25rem 0rem;
     font-weight: 600;
-    color: #4c4c4c;
+    color: black;
     cursor: pointer;
   }
   .testimonial-section-bottom {
@@ -247,7 +246,7 @@
   }
   .testimonial-section-bottom p {
     font-weight: 700;
-    color: #515151;
+    color: black;
     max-width: 500px;
     font-size: 1.1rem;
     margin: 2rem 0rem;
@@ -255,7 +254,7 @@
   .testimonials-stars-container svg {
     margin: 0rem 0.25rem;
     font-size: 1.5rem;
-    color: #fe9e0d;
+    color: yellowgreen;
   }
   .testimonial-section-bottom h2 {
     margin-top: 1.5rem;
