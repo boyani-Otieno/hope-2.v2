@@ -2,6 +2,7 @@ import React from 'react'
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 //import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import PayPalPayment from './PayPalPayment'
+import { Category } from './Category';
 
 export default function Donate() {
 
@@ -14,7 +15,8 @@ export default function Donate() {
   return (
     <PayPalScriptProvider options={initialOptions}>
       <div>
-        <h1>Support Our Ministry</h1>
+         <Category />
+        <h4>Support Our Ministries</h4>
         {/* <button>Donate</button> */}
         <PayPalPayment />
       </div>

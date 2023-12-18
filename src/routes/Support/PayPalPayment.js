@@ -22,7 +22,7 @@ const PayPalPayment = () => {
             purchase_units: [
                 {
                     amount: {
-                        value: "8.99",
+                        value: "1.00",
                     },
                 },
             ],
