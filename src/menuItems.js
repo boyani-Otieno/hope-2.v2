@@ -222,7 +222,7 @@ export const menuItems = [
       url: 'lamu',
      },
      {
-      title: 'Mabadiliko ya Wanadada',
+      title: 'Mabadiliko',
       url: 'mabadiliko',
      },
      

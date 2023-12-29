@@ -50,7 +50,7 @@ const [cards] = useState([
         <div>
             <section className='events'>
                 <div className="container2">
-                    <h1>Upcoming Events</h1>
+                    <h1 className='upcoming'>Upcoming Events</h1>
                     <div className="cards">
                         {cards.map((card, i) => (
                              <div key={i} className="card">

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-//import Logo from "../../assets/new-logo.png";
+//import poster from "./images/mabadiliko-poster.jpeg";
 //import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -39,7 +39,7 @@ const NavMaba = () => {
   return (
     <nav className="mabadiliko">
       <div className="nav-logo-container">
-        {/* <img src={Logo} alt="" /> */}
+        {/* <img src={poster} alt="" /> */}
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>

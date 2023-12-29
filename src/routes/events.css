@@ -17,11 +17,12 @@ body{
     align-items: center;
 }
 
-h1{
+.upcoming{
     font-size: 50px;
     line-height: 60px;
     text-align: center;
-    margin-bottom: 40px;
+    padding: 2rem;
+    /* border: solid red; */
 }
 
 .cards{
