@@ -2,7 +2,7 @@ import "./mabadiliko.css";
 import HomeMaba from "./homeMaba";
 import AboutMaba from "./aboutMaba";
 import Work from "./work";
-import TestimonialMaba from "./testimonialMaba";
+import Testimonials from "./testimonialMaba";
 import ContactMaba from "./contactMaba";
 import Footer from '../footer'
 import HomeMB from "./homeMB";
@@ -16,7 +16,7 @@ function mabadiliko() {
       <HomeMaba />
       <AboutMaba />
       <Work />
-      <TestimonialMaba />
+      <Testimonials />
       <ContactMaba />
       <Footer />
     </div>

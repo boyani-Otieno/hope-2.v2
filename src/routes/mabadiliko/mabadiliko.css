@@ -278,7 +278,7 @@
   .work-section-info {
     width: 290px;
     min-height: 350px;
-    background-color: white;
+    background-color: #e1eedd;
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
@@ -286,7 +286,7 @@
     align-items: center;
     text-align: center;
     border-radius: 1rem;
-    color: #505050;
+    color: black;
     margin: 1rem 2rem;
   }
   .work-section-info h2 {
@@ -424,5 +424,6 @@
     .about-background-image-container {
       display: none;
     }
+
   }
   
