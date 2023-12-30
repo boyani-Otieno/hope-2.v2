@@ -4,7 +4,6 @@ import './Home.css'
 import HeaderSocials from './HeaderSocials'
 import Slider from '../routes/Slider.js'
 //import News from './Services'
-//import Gallery from './Gallery'
 import Footer from './footer'
 import Events from '../routes/Events'
 import Featured from './Featured/Featured'
@@ -29,7 +28,6 @@ function Home() {
         <Featured />
         <Slider />
         <Events />
-        {/* <Gallery /> */}
         {/* <News /> */}
         <Footer />
       </div>

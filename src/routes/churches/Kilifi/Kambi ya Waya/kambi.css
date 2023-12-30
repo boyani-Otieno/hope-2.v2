@@ -8,12 +8,13 @@
 }
 
 .description-raila{
-    width: 600px;
     position: absolute;
     z-index: 999;
     color: aliceblue;
     top: 30%;
     left: 20%;
+    border: solid red;
+    
 }
 
 .description h1{
@@ -236,6 +237,11 @@ input, placeholder{
     }
     .description{
         width: fit-content;
+    }
+
+    .description-raila{
+        max-width: 70%;
+        height: 40vh;
     }
     
     .description h1{
