@@ -271,6 +271,9 @@ input, placeholder{
             font-size: 8px;
             
         }
+        .about-content h4{
+            font-size: 12px;
+        }
       
         .abt{
             margin-top: 13rem;

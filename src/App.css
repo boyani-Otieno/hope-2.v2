@@ -455,7 +455,7 @@ header {
 
   .mobile-nav .menu-items a:hover,
   .mobile-nav .menu-items button:hover {
-    background-color: #f2f2f2;
+    background-color: green;
   }
 
   .mobile-nav .arrow::after {
@@ -478,7 +478,7 @@ header {
   }
 
   .mobile-nav .dropdown {
-    margin-left: 1.2em;
+    margin-left: -4em;
     font-size: 0.9rem;
     padding: 0.5rem 0;
     list-style: none;
