@@ -215,7 +215,7 @@ export const menuItems = [
     submenu: [
      {
       title: 'Tumati',
-      url: 'tumati',
+      url: '/home',
      },
      {
       title: 'Lamu House',
