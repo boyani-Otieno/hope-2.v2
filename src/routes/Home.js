@@ -2,11 +2,12 @@ import React from 'react'
 import video from '../assets/video1.mp4'
 import './Home.css'
 import HeaderSocials from './HeaderSocials'
-import Slider from '../routes/Slider.js'
+import Announcements from '../routes/Announcements.js'
 //import News from './Services'
 import Footer from './footer'
 import Events from '../routes/Events'
 import Featured from './Featured/Featured'
+
 
 
 function Home() { 
@@ -26,7 +27,7 @@ function Home() {
         <h3 className= "text-light">Needing Jesus Christ Together</h3>
         <HeaderSocials />
         <Featured />
-        <Slider />
+        <Announcements />
         <Events />
         {/* <News /> */}
         <Footer />

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Slider.css';
+import './announcements.css';
 import CardItem from './CardItem';
 
 

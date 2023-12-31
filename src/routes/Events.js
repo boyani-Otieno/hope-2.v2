@@ -33,7 +33,7 @@ const [cards] = useState([
          `
     },
     {
-        title: 'Church Planting',
+        title: 'Church Openning',
         text: `September 27 2023 Tumaini Marram 
         officially opened by Miller and Tumaini Family
          `

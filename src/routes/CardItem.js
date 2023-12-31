@@ -1,6 +1,6 @@
 // CardItem.js
 import React from 'react';
-import './Slider.css';
+import './announcements.css';
 
 const CardItem = ({ src, text }) => {
   return (

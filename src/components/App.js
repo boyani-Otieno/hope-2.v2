@@ -1,7 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from '../routes/Home';
-import WebDesign from '../routes/WebDesign';
-import Kilifi from '../routes/Kilifi';
 import Church from '../routes/Church';
 import Layout from './Layout';
 import AboutWho from '../routes/AboutWho';
@@ -11,7 +9,6 @@ import Statement from '../routes/Statement';
 import Contact from '../routes/Contact';
 import Events from '../routes/Events';
 import Ministries from '../routes/Ministries';
-import Tumati from '../routes/Tumati';
 import Raila from '../routes/churches/Nairobi/Raila/Raila';
 import Fuata from '../routes/churches/Nairobi/Fuata-nyayo/Fuata';
 import Gitwamba from '../routes/churches/Nairobi/Gitwamba/Gitwamba';
@@ -61,14 +58,11 @@ const App = () => {
           <Route path="church" element={<Church />} />
           <Route path="mabadiliko" element={<Mabadiliko />} />
           <Route path="lamu" element={<Lamu />} />
-          <Route path="web-design" element={<WebDesign />} />
-          <Route path="kilifi" element={<Kilifi />} />
           <Route path="who-we-are" element={<AboutWho />} />
           <Route path="*" element={<p>Not found!</p>} />
           <Route path='history' element={<History />}/>
           <Route path='leaders' element={<Leaders />}/>
           <Route path='statement' element={<Statement />}/>
-          <Route path='tumati' element= {<Tumati />}/>
           <Route path='ministries' element={<Ministries />}/>
           <Route path='contact' element={<Contact />}/>
           <Route path='gala' element={<Gala />}/>

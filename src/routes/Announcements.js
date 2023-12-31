@@ -1,6 +1,6 @@
 // ThreeCards.js
 import React from 'react';
-import './Slider.css';
+import './announcements.css';
 import CardItem from './CardItem';
 import card1 from '../assets/images/christmas-card.jpg'
 import card2 from '../assets/images/lamu-mission.jpg'
