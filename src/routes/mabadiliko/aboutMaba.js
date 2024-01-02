@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBackground from "./images/green2.jpg";
-import AboutBackgroundImage from "../../assets/images/kilifi2.jpg";
+import AboutBackgroundImage from "./images/gorety.jpeg";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const aboutMaba = () => {
