@@ -1,16 +1,16 @@
 import React from 'react'
 import './kikwatani.css'
-import hero1 from '../../../../assets/coast1.jpeg'
-import hero2 from '../../../../assets/coast4.jpeg'
-import hero3 from '../../../../assets/coast5.jpeg'
-import hero4 from '../../../../assets/coast6.jpeg'
+import hero1 from './images/1.jpeg'
+import hero2 from './images/2.jpeg'
+import hero3 from './images/3.jpeg'
+import hero4 from './images/4.jpeg'
 
 function Hero() {
   return (
     <div id="ProgramsR"><h3>HAPPENING WEEKLY</h3>
     <div className='Hero'>
     <div className='pic'>
-       <img className= "hero-img" src={hero2} alt='hero'/>
+       <img className= "hero-img" src={hero4} alt='hero'/>
        <p>SUNDAY SERVICES <br/>
            10:00 AM <br />
            Devotion/ Mafundisho <br />
@@ -51,7 +51,7 @@ function Hero() {
      </div>
      
      <div className='pic'>
-       <img className= "hero-img" src={hero4} alt='hero'/>
+       <img className= "hero-img" src={hero2} alt='hero'/>
        <p>NIGHT KESHA'S <br />
          Time: All Night. 9:00 PM - 5:00 AM <br />
          These are overnight services that  <br />
