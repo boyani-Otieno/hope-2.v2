@@ -12,7 +12,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={'./images/italy2.jpeg'}
+              src={'../'}
               text='We strive to raise God fearing 
               generation of children and preteens.
                We have Sunday School classes and special

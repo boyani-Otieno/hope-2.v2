@@ -2,7 +2,7 @@ import React from 'react'
 import './poromoko.css'
 import img77 from "./poromokoImages/18.jpeg"
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-import ProgramsR from './ProgramsR'
+//import ProgramsR from './ProgramsR'
 import one from './poromokoImages/1.jpeg'
 import two from './poromokoImages/2.jpeg'
 import five from './poromokoImages/5.jpeg'
@@ -15,7 +15,7 @@ function AboutR() {
   return (
     <div>
      <div className='abt' id='aboutR'>
-     <h3>About Us</h3>
+     <h3 className= "poromoko-about">About Us</h3>
       <p>Tumaini Poromoko Church originated as a home fellowship initiated by
          two founding members, Daniel Mwingirwa Nkubitu and his wife Monicah 
          Ann Kioi, the year 2017. The church began with humble beginnings, 
@@ -60,7 +60,7 @@ function AboutR() {
             ))}
           </Masonry>
         </ResponsiveMasonry>
-        <div><ProgramsR /></div>
+        {/* <div><ProgramsR /></div> */}
      </div>
         <h2>Meet Our Church Leaders</h2>
         <div className='team' id="teamR">

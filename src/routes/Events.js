@@ -4,10 +4,10 @@ import './events.css'
 function Events(){
 const [cards] = useState([
     {
-        title: 'AGM',
-        text: `This year's Annual general meeting will stil 
-        be at the Headquaters Laki sama on 23 July 2023. 
-        For more direction click the button below.
+        title: 'Prayer & Fasting',
+        text: `This year's 21 days of prayer and fasting will held at 
+        Lucky summer headquaters office one can join physical/virtually
+        The main prayer point is Exodus 14:14.
          `
     },
     {
@@ -51,6 +51,7 @@ const [cards] = useState([
             <section className='events'>
                 <div className="container2">
                     <h1 className='upcoming'>Upcoming Events</h1>
+                    <h2>January 2024</h2>
                     <div className="cards">
                         {cards.map((card, i) => (
                              <div key={i} className="card">

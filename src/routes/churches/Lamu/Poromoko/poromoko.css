@@ -61,9 +61,10 @@
     text-align: center;
     margin-top: 100px;
 }
-h3{
+.poromoko-h3{
     text-align: center;
     margin-top: 100px;
+    padding: 20px;
 }
 
 .Hero p{
@@ -302,5 +303,10 @@ input, placeholder{
             margin-top: 10px;
             margin-left: 15rem; 
             font-size: 12px;
+        }
+
+        .poromoko-about{
+            margin-top: 10rem;
+            padding: 100px;
         }
 }
