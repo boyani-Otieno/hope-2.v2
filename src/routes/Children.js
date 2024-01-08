@@ -50,6 +50,11 @@ function Children() {
             ))}
           </Masonry>
         </ResponsiveMasonry>
+        <p>
+        We strive to raise God fearing generation of children and preteens. 
+        We have Sunday School classes and special programs for children that 
+        run occasionally during the year.
+        </p>
     </div>
   )
 }

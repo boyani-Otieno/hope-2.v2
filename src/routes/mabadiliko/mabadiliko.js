@@ -7,6 +7,7 @@ import ContactMaba from "./contactMaba";
 import Footer from '../footer'
 import HomeMB from "./homeMB";
 import NavMaba from "./navMaba";
+import Images from './images';
 
 function mabadiliko() {
   return (
@@ -16,6 +17,7 @@ function mabadiliko() {
       <HomeMaba />
       <AboutMaba />
       <Work />
+      <Images />
       <Testimonials />
       <ContactMaba />
       <Footer />

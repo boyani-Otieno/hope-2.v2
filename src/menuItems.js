@@ -24,10 +24,6 @@ export const menuItems = [
         url: 'leaders'
       },
       {
-        title: 'Our Ministries',
-        url: 'ministries'
-      },
-      {
         title: 'Resources',
         submenu: [
           {
@@ -255,7 +251,7 @@ export const menuItems = [
      },
      {
       title: 'Missions Ministry',
-      url: 'outreach',
+      url: 'missions',
      },
      {
       title: 'Schools Ministry',

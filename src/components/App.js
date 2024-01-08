@@ -8,7 +8,6 @@ import Leaders from '../routes/Leaders';
 import Statement from '../routes/Statement';
 import Contact from '../routes/Contact';
 import Events from '../routes/Events';
-import Ministries from '../routes/Ministries';
 import Raila from '../routes/churches/Nairobi/Raila/Raila';
 import Fuata from '../routes/churches/Nairobi/Fuata-nyayo/Fuata';
 import Gitwamba from '../routes/churches/Nairobi/Gitwamba/Gitwamba';
@@ -43,6 +42,12 @@ import Constitution from '../routes/Resources/Constitution'
 import Bylaws from '../routes/Resources/Bylaws'
 import Financial from '../routes/Resources/Financial'
 import Children from '../routes/Children'
+import Women from '../routes/Women'
+import Men from '../routes/Men'
+import Youth from '../routes/Youth'
+import Prayer from '../routes/Prayer'
+import Missions from '../routes/Missions'
+import Schools from '../routes/Schools'
 import Gala from  '../routes/Min-Gallery/Gala'
 import Donate from '../routes/Support/Donate'
 import Mabadiliko from '../routes/mabadiliko/mabadiliko';
@@ -63,7 +68,6 @@ const App = () => {
           <Route path='history' element={<History />}/>
           <Route path='leaders' element={<Leaders />}/>
           <Route path='statement' element={<Statement />}/>
-          <Route path='ministries' element={<Ministries />}/>
           <Route path='contact' element={<Contact />}/>
           <Route path='gala' element={<Gala />}/>
           <Route path='support' element={<Donate />}/>
@@ -102,6 +106,12 @@ const App = () => {
           <Route path='laws' element={<Bylaws />}/>
           <Route path='financial' element={<Financial />}/>
           <Route path='children' element={<Children />}/>
+          <Route path='women' element={<Women />}/>
+          <Route path='men' element={<Men />}/>
+          <Route path='youth' element={<Youth />}/>
+          <Route path='missions' element={<Missions />}/>
+          <Route path='prayer' element={<Prayer />}/>
+          <Route path='schools' element={<Schools />}/>
         </Route>
       </Routes>
     </>
