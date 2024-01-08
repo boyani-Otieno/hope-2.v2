@@ -260,12 +260,7 @@ export const menuItems = [
      {
       title: 'Schools Ministry',
       url: 'schools',
-     },
-     {
-      title: 'Church Planting',
-      url: 'church-planting',
-     },
-     
+     },   
     ]
   },
   {
