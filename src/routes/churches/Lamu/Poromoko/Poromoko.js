@@ -7,6 +7,7 @@ import AboutR from './AboutR'
 import Footer from './footer'
 import ContactR from './ContactR'
 import GiveR from './Give'
+import ProgramsP from './ProgramsP'
 
 
 function Raila() {
@@ -16,6 +17,7 @@ function Raila() {
       <HomeR />
       <Hero />
       <AboutR />
+      <ProgramsP/>
       <GiveR />
       <ContactR />
       <Footer />
