@@ -2,13 +2,13 @@ import React from "react";
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 import Sharon from "./images/shaz.jpeg";
 import Bilha from "./images/Bilha.jpeg";
-import Ester from "../../assets/images/kilifi11.jpg";
 import M1 from './images/IMG6.jpg'
 import M2 from './images/IMG7.jpg'
 import M3 from './images/IMG18.jpg'
 import M4 from './images/IMG9.jpg'
 import M5 from './images/IMG10.jpg'
 import M6 from './images/IMG12.jpg'
+import Ester from './images/m6.jpg'
 
 const images = [M1, M2, M3, M4, M5, M6, M1, M2, M3, M4, M5, M6];
 function Work  (){
@@ -25,8 +25,13 @@ function Work  (){
     },
     {
       image: Ester,
-      title: "Easter Wanjiku",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      title: "Beth Mwangi",
+      text: "Meet Beth, A musician and her passion in serving God is admirable.",
+    },
+    {
+      image: Ester,
+      title: "Lilian",
+      text: "Meet Beth, A musician and her passion in serving God is admirable.",
     },
   ];
   return (

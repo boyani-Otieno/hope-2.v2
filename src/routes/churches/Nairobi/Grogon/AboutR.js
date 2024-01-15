@@ -1,16 +1,31 @@
 import React from 'react'
+import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 import './grogon.css'
-import img77 from "../../../../assets/city.jpg"
-import img777 from "../../../../assets/ubc.jpg"
-import img7777 from "../../../../assets/pst.James.jpg"
+import img77 from "./images/15.jpg"
+import img777 from "./images/14.jpg"
 import ProgramsR from './ProgramsR'
+import M1 from './images/32.jpg'
+import M2 from './images/39.jpg'
+import M3 from './images/29.jpg'
+import M4 from './images/16.jpg'
+import M5 from './images/27.jpg'
+import M6 from './images/26.jpg'
+import M7 from './images/25.jpg'
+import M8 from './images/24.jpg'
+import M9 from './images/23.jpg'
+import M10 from './images/22.jpg'
+import M11 from './images/21.jpg'
+import M12 from './images/1.jpg'
+import M13 from './images/38.jpg'
 
+
+const images = [M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11, M12, M13];
 function AboutR() {
   return (
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
+      <p>Tumaini Grogon was founded by Pst Jackton
         and Bishop Fred Ogutu. The church originated from 
         Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
         Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -37,6 +52,15 @@ function AboutR() {
           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </p>
+        <div>
+           <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+           <Masonry gutter='20px'>
+            {images.map((image, i) => (
+              <img key={i} src={image} style={{ width: '100%', display: 'block' }} alt='' />
+            ))}
+           </Masonry>
+        </ResponsiveMasonry>
+        </div>
         <div><ProgramsR /></div>
      </div>
         <h2>Meet Our Church Leaders</h2>
@@ -50,56 +74,31 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
-                  <p>We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
+                  <h4>Pst Francis Omutelema</h4>
+                  <p>Pastor Francis Omutelema, with an unwavering commitment, 
+                     has faithfully led Tumaini Grogon as the Lead Pastor for 
+                     over 25 years. Despite his dedicated service, Pastor Omutelema 
+                     has expressed his desire to transition into retirement.
+                 </p>
             </div>
          </div>
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-               <h4>Pst Wilson Omondi</h4>
-                <p>We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
+               <h4>Pst George Bush</h4>
+                <p>Pst Bush as served under Pst Omutelema for around 2 years. He has served faithfuly upto now.
                   I make sure it aligns with my core set of values so
                   I know I can deliver great results. My curiosity makes
                   me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
+                  I am able to come up with quality work.
+                  
+                </p>
             </div>
          </div>
 
          <div data-aos="fade-right" className="about-column">
             <div className='about-img'>
                <img className="A-img" src={img777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img7777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst James Wanyama</h4>
-               <p>
-               We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
             </div>
          </div>
       </div>

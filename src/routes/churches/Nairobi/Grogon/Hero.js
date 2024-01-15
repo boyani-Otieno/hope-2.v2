@@ -1,9 +1,9 @@
 import React from 'react'
 import './grogon.css'
-import hero1 from '../../../../assets/praise-raila-2.jpg'
-import hero2 from '../../../../assets/raila-1.jpg'
-import hero3 from '../../../../assets/praise-raila.jpg'
-import hero4 from '../../../../assets/pst.James.jpg'
+import hero1 from './images/4.jpg'
+import hero2 from './images/5.jpg'
+import hero3 from './images/10.jpg'
+import hero4 from './images/13.jpg'
 
 function Hero() {
   return (
