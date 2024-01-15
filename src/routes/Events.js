@@ -11,12 +11,11 @@ const [cards] = useState([
          `
     },
     {
-        title: 'Children Ministry',
-        text: `The Children ministry will be hosting a camp at 
-        Limuru this August to involve all ministry sunday schools
-        from Nairobi area. More infor to be disbursed on due time. 
-        
-         `
+        title: 'Tumaini Ministry Celebration',
+        text: `On Sunday 21, April 2024 there will be  a celebration to 
+        celebrate the retirement of Pastor Francis Omutelema. As we plan for the 
+        same more details will be communicated timely.
+        `
     },
     {
         title: 'Men Ministry',
