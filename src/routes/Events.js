@@ -18,10 +18,11 @@ const [cards] = useState([
         `
     },
     {
-        title: 'Men Ministry',
-        text: `The Men ministry headed by Mr Nixon Mambo
-        is planning to have a men's conference that will include 
-        all ministry church's men from Nairobi area.
+        title: 'Youth Ministry',
+        text: `A Leaders Training session for the youth 
+        is scheduled to take place on February 10, 2024, 
+        at TUMATI. The focus is on empowering the leaders to 
+        effectively guide and lead their fellow youth in a Christ-centered manner.
          `
     },
     {
