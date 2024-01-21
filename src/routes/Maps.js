@@ -5,7 +5,7 @@ export default function Maps() {
     <div>
         <h2>Our Locations</h2>
         <iframe src="https://www.google.com/maps/d/embed?mid=1vlP065ps4WU7MvAbnllDqNBU2IIu94o&ehbc=2E312F" 
-        width="1500" height="480"></iframe>
+        width="1200" height="480"></iframe>
     </div>
   )
 }
