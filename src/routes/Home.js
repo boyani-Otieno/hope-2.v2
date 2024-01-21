@@ -3,7 +3,7 @@ import video from '../assets/video1.mp4'
 import './Home.css'
 import HeaderSocials from './HeaderSocials'
 import Announcements from '../routes/Announcements.js'
-//import News from './Services'
+import Maps from './Maps.js'
 import Footer from './footer'
 import Events from '../routes/Events'
 import Featured from './Featured/Featured'
@@ -29,7 +29,7 @@ function Home() {
         <Featured />
         <Announcements />
         <Events />
-        {/* <News /> */}
+        <Maps />
         <Footer />
       </div>
 
