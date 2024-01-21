@@ -12,7 +12,7 @@ import Raila from '../routes/churches/Nairobi/Raila/Raila';
 import Fuata from '../routes/churches/Nairobi/Fuata-nyayo/Fuata';
 import Gitwamba from '../routes/churches/Nairobi/Gitwamba/Gitwamba';
 import Highridge from '../routes/churches/Nairobi/Highridge/Highridge';
-import Maili from '../routes/churches/Nairobi/Maili/Maili';
+//import Maili from '../routes/churches/Nairobi/Maili/Maili';
 import Grogon from '../routes/churches/Nairobi/Grogon/Grogon';
 import Kayaba from '../routes/churches/Nairobi/Kayaba/Kayaba';
 import Kiambio from '../routes/churches/Nairobi/Kiambio/Kiambio';
@@ -20,7 +20,7 @@ import Kibera from '../routes/churches/Nairobi/Kibera/Kibera';
 import Kambi from '../routes/churches/Kilifi/Kambi ya Waya/Kambi'
 import Kibaoni from '../routes/churches/Kilifi/Kibaoni/Kibaoni'
 import Marrum from '../routes/churches/Kilifi/Marrum/Marrum'
-import Povuni from '../routes/churches/Kilifi/Povuni/Povuni'
+//import Povuni from '../routes/churches/Kilifi/Povuni/Povuni'
 import Sogorosa from '../routes/churches/Kilifi/Sogorosa/Sogorosa'
 import Kikwatani from '../routes/churches/Mombasa/Kikwatani/Kikwatani'
 import Bubamba from '../routes/churches/Western/Bubamba/Bubamba'
@@ -76,7 +76,7 @@ const App = () => {
           <Route path='fuata' element={<Fuata />}/>
           <Route path='gitwamba' element={<Gitwamba />}/>
           <Route path='highridge' element={<Highridge />}/>
-          <Route path='maili' element={<Maili />}/>
+          {/* <Route path='maili' element={<Maili />}/> */}
           <Route path='grogon' element={<Grogon />}/>
           <Route path='kayaba' element={<Kayaba />}/>
           <Route path='kiambio' element={<Kiambio />}/>
@@ -84,7 +84,6 @@ const App = () => {
           <Route path='kambi' element={<Kambi />}/>
           <Route path='kibaoni' element={<Kibaoni />}/>
           <Route path='marrum' element={<Marrum />}/>
-          <Route path='povuni' element={<Povuni />}/>
           <Route path='sogorosa' element={<Sogorosa />}/>
           <Route path='kikwatani' element={<Kikwatani />}/>
           <Route path='bubamba' element={<Bubamba />}/>

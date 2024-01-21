@@ -3,10 +3,10 @@ import Nav from './nav';
 import HomeR from './HomeR';
 import './nav.css'
 import Hero from './Hero'
-import AboutR from './AboutR'
+//import AboutR from './AboutR'
 import Footer from './footer'
 import ContactR from './ContactR'
-import GiveR from './Give'
+//import GiveR from './Give'
 
 
 function Raila() {
@@ -15,8 +15,8 @@ function Raila() {
       <Nav />
       <HomeR />
       <Hero />
-      <AboutR />
-      <GiveR />
+      {/* <AboutR /> */}
+      {/* <GiveR /> */}
       <ContactR />
       <Footer />
     </div>

@@ -1,8 +1,6 @@
 import React from 'react'
 import './kiambio.css'
 import img77 from "../../../../assets/Pst.Renson.jpeg"
-import img777 from "../../../../assets/ubc.jpg"
-import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
 
 function AboutR() {
@@ -52,47 +50,6 @@ function AboutR() {
             <div className='about-content'>
                   <h4>Pst Renson (Senior Pastor)</h4>
                   <p>We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst Wilson Omondi</h4>
-                <p>We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img7777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst James Wanyama</h4>
-               <p>
-               We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
                   than just a job. Each time I take on a new project, 

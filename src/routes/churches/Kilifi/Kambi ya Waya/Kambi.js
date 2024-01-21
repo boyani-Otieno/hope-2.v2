@@ -6,7 +6,7 @@ import Hero from './Hero'
 import AboutR from './AboutR'
 import Footer from './footer'
 import ContactR from './ContactR'
-import GiveKW from './GiveKW'
+//import GiveKW from './GiveKW'
 
 
 function Raila() {
@@ -16,7 +16,7 @@ function Raila() {
       <HomeR />
       <Hero />
       <AboutR />
-      <GiveKW />
+      {/* <GiveKW /> */}
       <ContactR />
       <Footer />
     </div>
