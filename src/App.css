@@ -488,6 +488,9 @@ header {
   .mobile-nav .dropdown.show {
     display: block;
   }
+  .maps{
+    width: 300px;
+  }
 }
 
 /* page content */
