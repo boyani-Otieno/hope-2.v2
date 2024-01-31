@@ -1,7 +1,7 @@
 import React from 'react'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
-import c1 from './all-images/children/c1.jpeg'
-import c2 from './all-images/children/c2.jpeg'
+import c1 from './all-images/men/men1.jpeg'
+import c2 from './all-images/men/men2.jpeg'
 import c3 from './all-images/children/c3.jpeg'
 import c4 from './all-images/children/c4.jpeg'
 import c5 from './all-images/children/c5.jpeg'
@@ -29,6 +29,7 @@ function Men() {
         structure through training in biblical principles, mentoring, 
         counseling and fellowship, to create effective godly families grounded in the word of God.
         </p>
+        <h6>The Men's Ministry in Grogon focuses on strengthening our bond through home visits and communal fellowship.</h6>
 
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
           <Masonry gutter='20px'>

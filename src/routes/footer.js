@@ -50,9 +50,9 @@ const Footer = () => (
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">HQ Lucky Summer, Nairobi</p>
-        <p className="p__opensans">KENYA  AFRICA</p>
-        <p className="p__opensans">+254 791351887</p>
-        <p className="p__opensans">+254 743691780</p>
+        <p className="p__opensans">KENYA, AFRICA</p>
+        <p className="p__opensans">P.O.Box 57577 - 00200</p>
+        <p className="p__opensans">cell: +254 722 337 566</p>
         <p className="p__opensans">tumaini.ministries@gmail.com</p>
       </div>
     </div>
