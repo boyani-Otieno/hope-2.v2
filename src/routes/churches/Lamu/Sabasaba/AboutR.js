@@ -1,8 +1,6 @@
 import React from 'react'
 import './sabasaba.css'
 import img77 from "../../../../assets/Maurice.jpeg"
-import img777 from "../../../../assets/ubc.jpg"
-import img7777 from "../../../../assets/pst.James.jpg"
 import ProgramsR from './ProgramsR'
 
 function AboutR() {
@@ -10,12 +8,9 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Langata was founded by Pst Jackton
-        and Bishop Fred Ogutu. The church originated from 
-        Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
-        Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      <p>Tumaini Sabasaba was started by 
+         Pst Mtete who is currently retired. Pst Morris is the current lead 
+         pastor. quis nostrud exercitation ullamco laboris
         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -52,59 +47,17 @@ function AboutR() {
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
                   <h4>Pst Maurice Juma (Senior Pastor)</h4>
-                  <p>Pst Maurice is the head of Lamu Churches region.
-                     He helped in opening Tumaini Roka, Tumaini Kibokoni 
-                     and Tumaini Manda. He is married to 1 wife and they 
-                     are blessed with four children.
-                     We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst Wilson Omondi</h4>
-                <p>We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img7777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst James Wanyama</h4>
-               <p>
-               We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
+                  <p>Pastor Maurice serves as the leader of the 
+                     Lamu Churches region, playing a pivotal role 
+                     in the establishment of Tumaini Roka, Tumaini 
+                     Kibokoni, and Tumaini Manda. His dedication to 
+                     expanding the reach of the church has been instrumental 
+                     in the foundation of these congregations. Personally, 
+                     Pastor Maurice is committed to family life, being happily 
+                     married to one wife and blessed with four children. His 
+                     leadership extends beyond the church, fostering a sense of 
+                     community and spiritual growth in the Lamu region.
+                    </p>
             </div>
          </div>
       </div>

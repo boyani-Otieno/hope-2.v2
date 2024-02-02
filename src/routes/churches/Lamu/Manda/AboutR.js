@@ -8,25 +8,16 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini Manda opened in 2007 by Evangelist Enos Moyale,
-         Pst Elis Abour and Ken Omanya as founding pastors. 
-         They started preaching the gospel to the community.
-        and Bishop Fred Ogutu. The church originated from 
-        Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
-        Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum."
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum."</p>
+      <p>
+         In 2007, Tumaini Manda was inaugurated under the leadership 
+         of Evangelist Enos Moyale, Pastor Elis Abour, and Ken Omanya, 
+         who served as its founding pastors. Their primary mission was to 
+         impart the teachings of the gospel to the local community, 
+         initiating a journey of spiritual outreach and engagement. 
+         From its inception, Tumaini Manda has been dedicated to spreading 
+         the message of hope and faith, contributing to the spiritual growth 
+         and well-being of the community it serves.
+       </p>
      </div>
      <div>
         <h4>Our Church</h4>

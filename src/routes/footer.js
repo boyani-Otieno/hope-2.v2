@@ -59,7 +59,7 @@ const Footer = () => (
     
 
     <div className="footer__copyright">
-      <p className="p__opensans"><small>&copy;2023 Tumaini Ministries Centre. All Rights reserved. Site by Boyani</small></p>
+      <p className="p__opensans"><small>&copy;2024 Tumaini Ministries Centre. All Rights reserved. Site by Boyani</small></p>
     </div>
 
   </div>

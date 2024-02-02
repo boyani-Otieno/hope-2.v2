@@ -35,22 +35,6 @@ const ProgramsR = () => {
 
           <article className="program_details">
             <div className='program_details-icon'><BsPatchCheckFill /></div>
-           <div>
-           <h4>Urban Impact(Post-covid)</h4>
-            <small className="text-light">Operational</small>
-           </div>
-          </article>
-
-          <article className="program_details">
-            <div className='program_details-icon'><BsPatchCheckFill /></div>
-            <div>
-            <h4>Mabadiliko ya Wanadada</h4>
-            <small className="text-light">Operational</small>
-            </div>
-          </article>
-
-          <article className="program_details">
-            <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
             <h4>Tumaini House Rentals</h4>
             <small className="text-light">Operational</small>
@@ -80,22 +64,6 @@ const ProgramsR = () => {
             <div className='program_details-icon'><BsPatchCheckFill /></div>
             <div>
             <h4>Pastors Training</h4>
-            <small className="text-light">Future</small>
-            </div>
-          </article>
-
-          <article className="program_details">
-            <div className='program_details-icon'><BsPatchCheckFill /></div>
-            <div>
-            <h4>Mabadiliko ya Wanaume</h4>
-            <small className="text-light">Future</small>
-            </div>
-          </article>
-
-          <article className="program_details">
-            <div className='program_details-icon'><BsPatchCheckFill /></div>
-            <div>
-            <h4>Discipleship Programs</h4>
             <small className="text-light">Future</small>
             </div>
           </article>

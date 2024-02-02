@@ -8,26 +8,16 @@ function AboutR() {
     <div>
      <div className='abt' id='aboutR'>
      <h3>About Us</h3>
-      <p>Tumaini church Moa started in 2002 and later returned around 2014
-         under the leadership of Pst William, Pst Patrick and Pst Ondolo but
-         the main founder being Pastor Timothy. With current 20 congregants 
-         comprising of 14 adults and the rest being children and the youth.
-        and Bishop Fred Ogutu. The church originated from 
-        Tumaini Kibera with Pst Jackton from Tumaini Kibera and 
-        Bishop form Tumaini Gitwamba"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum."
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum."</p>
+      <p>
+        Established in 2002, Tumaini Church Moa experienced 
+        a hiatus before resuming activities in 2014, guided 
+        by the leadership of Pastors William, Patrick, and 
+        Ondolo, with Pastor Timothy as the primary founder. 
+        Presently, the congregation boasts 20 members, consisting 
+        of 14 adults along with children and youth. Under this 
+        leadership, Tumaini Church Moa remains steadfast in its 
+        commitment to fostering spiritual growth and community engagement.
+       </p>
      </div>
      <div>
         <h4>Our Church</h4>
