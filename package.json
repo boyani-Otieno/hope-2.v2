@@ -20,7 +20,6 @@
     "emailjs-com": "^3.2.0",
     "express": "^4.18.2",
     "logrocket": "^7.0.0",
-    "material-ui-icons": "^1.0.0-beta.36",
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-auto-image-slider": "^1.0.0",

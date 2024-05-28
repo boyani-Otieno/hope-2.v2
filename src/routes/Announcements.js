@@ -9,8 +9,14 @@ import card3 from '../assets/images/Mens-Ministry.jpg'
 const Slider = () => {
   return (
     <div className='cs'>
-      <h1 className='kard-head'>Announcements</h1>
+      <h1 className='kard-head'>Join Our Ministries</h1>
       <div className='c-container'>
+        <div>
+          <p>At Tumaini Ministries Center, We believe in the power of relationships and the strength 
+            that comes from a cohesive community. Join us and let's work together to establish God's 
+            Kingdom on earth with meaningful conversations, building connections, and making a positive 
+            difference in the world.</p>
+        </div>
         <ul className='c-items'>
           <CardItem
             src={card1}
