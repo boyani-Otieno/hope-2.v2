@@ -290,19 +290,18 @@ export default function Leaders() {
            <div className='lead-info'>
             <p>Communications & Media Personell</p>
             <p>Sylvia is the website developer and our main administrator of the website. She also handles all the
-               minitry's Communications and media and all IT related matters.
+               ministry's Communications and media and all IT related matters.
             </p>
               <ul className='lead-icons'>
-              <li><a href="https://twitter.com" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
+              <li><a href="https://twitter.com/BoyaniSylvia" target="_blank" rel='nooopener noreferrer'><BsTwitterX/></a>
                  </li>
 
-                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
+                 <li><a href="https://facebook.com/Boyani Ombogo" target="_blank" rel='nooopener noreferrer'><BsFacebook/></a>
                  </li>
 
-                 <li><a href="https://instagram.com" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
+                 <li><a href="https://www.instagram.com/boyani.sylvia/" target="_blank" rel='nooopener noreferrer'><BsInstagram/></a>
                  </li>
-
-                 <li><a href="https://facebook.com" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
+                 <li><a href="https://ke.linkedin.com/in/sylvia-boyani-7130a6196" target="_blank" rel='nooopener noreferrer'><BsLinkedin/></a>
                  </li>
               </ul>
            </div>

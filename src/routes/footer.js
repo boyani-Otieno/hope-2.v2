@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiFacebook, FiInstagram } from 'react-icons/fi';
+import { BsTwitterX } from "react-icons/bs";
 import logo from '../assets/new-logo.png'
 import './FooMain.css';
 
@@ -12,9 +13,9 @@ const Footer = () => (
         <p className="p__opensans">&quot;Jesus is the Way, the Truth and Life.&quot;</p>
         {/* <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} /> */}
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href="https://twitter.com/tumaini_center" target="_blank" rel='nooopener noreferrer'><BsTwitterX /></a>
+          <a href="https://facebook.com/groups/463875542604102/?_rdc=1&_rdr" target="_blank" rel='nooopener noreferrer'><FiFacebook/></a>
+          <a href="https://www.instagram.com/tumaini.ministries.center.ke" target="_blank" rel='nooopener noreferrer'><FiInstagram/></a>
         </div>
       </div> 
       
