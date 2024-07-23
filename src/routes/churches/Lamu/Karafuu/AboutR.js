@@ -1,7 +1,6 @@
 import React from 'react'
 import './karafuu.css'
 import img77 from "../../../../assets/samuel-karafuu.jpeg"
-import img777 from "../../../../assets/ubc.jpg"
 import ProgramsR from './ProgramsR'
 
 function AboutR() {
@@ -49,7 +48,7 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Joseph Wanyama (Senior Pastor)</h4>
+                  <h4>Pst Samuel Lead-Pastor</h4>
                   <p>We all have our strengths. I’ve perfected
                   mine so you can focus on yours. Get in touch
                   to find out how I can help.My business is more
@@ -60,47 +59,6 @@ function AboutR() {
                   I am able to come up with quality work.</p>
             </div>
          </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst Wilson Omondi</h4>
-                <p>We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
-            </div>
-         </div>
-
-         <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img777} alt="about us" />
-            </div>
-         </div>
-
-         {/* <div data-aos="fade-right" className="about-column">
-            <div className='about-img'>
-               <img className="A-img" src={img7777} alt="about us" />
-            </div>
-         </div>
-
-         <div data-aos="fade-left" className="about-column">
-            <div className='about-content'>
-               <h4>Pst James Wanyama</h4>
-               <p>
-               We all have our strengths. I’ve perfected
-                  mine so you can focus on yours. Get in touch
-                  to find out how I can help.My business is more
-                  than just a job. Each time I take on a new project, 
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.</p>
-            </div>
-         </div> */}
       </div>
         </div>
     </div>

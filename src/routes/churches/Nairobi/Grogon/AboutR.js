@@ -1,8 +1,8 @@
 import React from 'react'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 import './grogon.css'
-import img77 from "./images/15.jpg"
-import img777 from "./images/14.jpg"
+import img77 from "../../../../assets/pst maga.jpeg"
+import img777 from "../../../../assets/beth.jpeg"
 import ProgramsR from './ProgramsR'
 import M1 from './images/32.jpg'
 import M2 from './images/39.jpg'
@@ -74,24 +74,29 @@ function AboutR() {
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-                  <h4>Pst Francis Omutelema</h4>
-                  <p>Pastor Francis Omutelema, with an unwavering commitment, 
-                     has faithfully led Tumaini Grogon as the Lead Pastor for 
-                     over 25 years. Despite his dedicated service, Pastor Omutelema 
-                     has expressed his desire to transition into retirement.
+                  <h4>Pst Magalasia</h4>
+                  <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum."
                  </p>
             </div>
          </div>
 
          <div data-aos="fade-left" className="about-column">
             <div className='about-content'>
-               <h4>Pst George Bush</h4>
-                <p>Pst Bush as served under Pst Omutelema for around 2 years. He has served faithfuly upto now.
-                  I make sure it aligns with my core set of values so
-                  I know I can deliver great results. My curiosity makes
-                  me love learning, and added with my perfectionism,
-                  I am able to come up with quality work.
-                  
+               <h4>Assistant Pst Beth</h4>
+                <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum."                  
                 </p>
             </div>
          </div>

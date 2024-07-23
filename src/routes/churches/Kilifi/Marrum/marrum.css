@@ -1,7 +1,7 @@
-.heroRaila{
+.heroMarrum{
     text-align: center;
     height: 100vh;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../../../assets/kilifi-home.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../../../assets/marram.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -83,7 +83,7 @@ h3{
     margin-top: 1rem;
 }
 .about-marram{
-    margin-top: -10rem;
+    margin-top: 2rem;
 }
 
 .about-content h1{

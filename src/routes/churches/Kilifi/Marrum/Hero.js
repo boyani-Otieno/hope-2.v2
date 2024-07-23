@@ -1,9 +1,9 @@
 import React from 'react'
 import './marrum.css'
-import hero1 from '../../../../assets/coast3.jpeg'
-import hero2 from '../../../../assets/coast4.jpeg'
-import hero3 from '../../../../assets/coast5.jpeg'
-import hero4 from '../../../../assets/coast6.jpeg'
+import hero1 from '../../../../assets/marram1.jpeg'
+import hero2 from '../../../../assets/marram2.jpeg'
+import hero3 from '../../../../assets/marram3.jpeg'
+import hero4 from '../../../../assets/marram4.jpeg'
 
 function Hero() {
   return (
