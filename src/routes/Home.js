@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../assets/video1.mp4'
+import video from '../assets/kayabaVd (1).mp4'
 import './Home.css'
 import HeaderSocials from './HeaderSocials'
 import Announcements from '../routes/Announcements.js'

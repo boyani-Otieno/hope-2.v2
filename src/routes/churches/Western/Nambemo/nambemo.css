@@ -1,7 +1,7 @@
-.heroRaila{
+.heroNambemo{
     text-align: center;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../../../assets/nambemo2.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../../../assets/nambemo3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

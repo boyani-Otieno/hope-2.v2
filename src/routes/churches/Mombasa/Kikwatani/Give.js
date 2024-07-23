@@ -10,8 +10,7 @@ const GiveR = () => {
         <div>
          <h5>Safaricom Mpesa Paybill</h5>
           <img className='pay-img' src={mpesa} alt="pay"/>
-           <h4>Paybill: 247247</h4>
-           <h4>Account No: 0726652265</h4>
+           <h4>Account No: 07xxxxxxxxx</h4>
         </div>          
       </div>
     </div>
