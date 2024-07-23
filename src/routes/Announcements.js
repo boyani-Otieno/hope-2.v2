@@ -2,9 +2,9 @@
 import React from 'react';
 import './announcements.css';
 import CardItem from './CardItem';
-import card1 from '../assets/images/christmas-card.jpg'
-import card2 from '../assets/images/lamu-mission.jpg'
-import card3 from '../assets/images/Mens-Ministry.jpg'
+import card1 from '../assets/images/us2.jpg'
+import card2 from '../assets/images/youth.jpg'
+import card3 from '../assets/images/adm.jpg'
 
 const Slider = () => {
   return (
@@ -20,17 +20,17 @@ const Slider = () => {
         <ul className='c-items'>
           <CardItem
             src={card1}
-            text='Christmas is here!'
+            text='Be part of US!'
             label='Card 1'
           />
           <CardItem
             src={card2}
-            text='Lamu Youth Mission.'
+            text='Youth Missions.'
             label='Card 2'
           />
           <CardItem
             src={card3}
-            text='Mens Conference'
+            text='Annual General Meetings'
             label='Card 3'
           />
         </ul>
