@@ -2,7 +2,7 @@
 import React from 'react';
 import './announcements.css';
 import CardItem from './CardItem';
-import card1 from '../assets/images/us2.jpg'
+import card1 from '../assets/images/us3.jpg'
 import card2 from '../assets/images/youth.jpg'
 import card3 from '../assets/images/adm.jpg'
 
