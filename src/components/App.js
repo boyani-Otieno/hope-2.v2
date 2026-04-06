@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 import Home from '../routes/Home';
 import Church from '../routes/Church';
 import Layout from './Layout';
@@ -55,6 +56,28 @@ import Lamu from '../routes/Lamu/Lamu';
 
 
 const App = () => {
+  // connection logic to rails backend
+  useEffect(() => {
+    console.log("🔍 Attempting to connect to backend...");
+    const checkBackend = async () => {
+      try {
+        // Use the environment variable we set up
+        const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000';
+        const response = await fetch(`${API_URL}/api/v1/health_check`);
+        
+        if (!response.ok) throw new Error("Server responded with an error");
+
+        const data = await response.json();
+        
+        // 3. Look at your browser console (F12) to see this!
+        console.log("✅ Backend Connected:", data.message);
+      } catch (error) {
+        console.error("❌ Backend Connection Failed:", error.message);
+      }
+    };
+
+    checkBackend();
+  }, []); // Empty array means this runs once on page load
   return (
     <>
       <Routes>

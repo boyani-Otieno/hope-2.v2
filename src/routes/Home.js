@@ -18,7 +18,7 @@ function Home() {
      
      </div>
       <div className="container header_container">
-        <div classname ="header_content">
+        <div className="header_content">
         <h5>Hello, Welcome to</h5>
         <h1>Tumaini Ministries Centre</h1>
         <h2><i>He gives hope to the poor and silences the wicked.</i></h2>
